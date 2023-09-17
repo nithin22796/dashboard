@@ -1,6 +1,14 @@
+import BarChart from "../../components/BarChart";
 import ChartBox from "../../components/chartBox";
 import TopBox from "../../components/topBox";
-import { TotalUser, Products, Revenue, Conversion } from "../../data";
+import {
+  TotalUser,
+  Products,
+  Revenue,
+  Conversion,
+  Visit,
+  BoxRevenue,
+} from "../../data";
 
 const Home = () => {
   return (
@@ -22,8 +30,12 @@ const Home = () => {
         <ChartBox {...Revenue} />
       </div>
       <div className="box box7">Box 7</div>
-      <div className="box box8">Box 8</div>
-      <div className="box box9">Box 9</div>
+      <div className="box box8">
+        <BarChart {...Visit} />
+      </div>
+      <div className="box box9">
+        <BarChart {...BoxRevenue} />
+      </div>
     </div>
   );
 };
