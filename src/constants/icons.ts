@@ -1,0 +1,33 @@
+import {
+  MdSearch,
+  MdViewModule,
+  MdFullscreen,
+  MdOutlineNotifications,
+  MdSettings,
+  MdHome,
+  MdGroup,
+  MdGroups,
+  MdShoppingCartCheckout,
+  MdOutlineShoppingBag,
+  MdFeed,
+  MdOutlineNotes,
+  MdOutlineMonetizationOn,
+  MdCurrencyExchange,
+} from "react-icons/md";
+
+export {
+  MdSearch as Search,
+  MdViewModule as ViewModule,
+  MdFullscreen as FullScreen,
+  MdOutlineNotifications as Notification,
+  MdSettings as Settings,
+  MdHome as Home,
+  MdGroup as Profile,
+  MdGroups as Users,
+  MdShoppingCartCheckout as Product,
+  MdOutlineShoppingBag as Order,
+  MdFeed as Post,
+  MdOutlineNotes as Notes,
+  MdOutlineMonetizationOn as Money,
+  MdCurrencyExchange as Conversion,
+};

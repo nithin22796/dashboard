@@ -1,0 +1,19 @@
+// Background Colors
+$main-bg: #2a3447;
+$soft-bg: #384256;
+$dark-bd: #222b3c;
+
+// Text Colors
+$main-color: white;
+$soft-color: #ddd;
+$dark-color: #2a3447;
+
+// Rotate Icon Animation
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
