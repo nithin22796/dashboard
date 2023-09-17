@@ -1,3 +1,4 @@
+import AreaChart from "../../components/AreaChart";
 import BarChart from "../../components/BarChart";
 import PieChart from "../../components/PieChart";
 import ChartBox from "../../components/chartBox";
@@ -32,7 +33,9 @@ const Home = () => {
       <div className="box box6">
         <ChartBox {...Revenue} />
       </div>
-      <div className="box box7">Box 7</div>
+      <div className="box box7">
+        <AreaChart />
+      </div>
       <div className="box box8">
         <BarChart {...Visit} />
       </div>
